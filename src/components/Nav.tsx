@@ -46,14 +46,14 @@ const Nav: React.FC = () => {
           <div className="row">
             <div className="col-6 d-lg-none">
               <form onSubmit={handleSubmit} className="box me-3">
-                <input type="text" ref={inputValue} placeholder="Search..." />
+                <input type="text" ref={inputValue} placeholder="Грција..." />
                 <a href="#">
                   <Image
                     src="/search-navbar.png"
                     className="search-navbar "
                     alt="search-navbar"
-                    width={100}
-                    height={100}
+                    width={105}
+                    height={105}
                   />
                 </a>
               </form>

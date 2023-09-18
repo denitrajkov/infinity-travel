@@ -12,7 +12,7 @@ const Button: React.FC<ButtonProps> = ({ region, onClick, isActive }) => {
   return (
     <button
       type="button"
-      className={`col btn-green me-3 ${isActive ? "btn-green-active" : ""}`}
+      className={`col btn-green  ${isActive ? "btn-green-active" : ""}`}
       data-mdb-ripple-color="dark"
       onClick={handleButtonClick}
     >

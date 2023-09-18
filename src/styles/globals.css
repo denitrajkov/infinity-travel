@@ -256,8 +256,8 @@ img {
 
 .absolute-img-bottom {
   position: absolute;
-  bottom: -25%;
-  right: -4%;
+  bottom: -102%;
+  left: 260%;
   width: 228px;
   height: 196px;
 }
@@ -680,9 +680,15 @@ img {
   .f-26-heading-bold {
     font-size: 16px;
   }
+  .f-17-body-text-regular {
+    font-size: 14px;
+  }
   .f-16-body-text-regular {
     font-size: 12px;
     line-height: 12.1px;
+  }
+  .f-11-body-text-regular {
+    font-size: 9px;
   }
 
   .f-20-heading-semi-bold {
@@ -718,9 +724,8 @@ img {
   .chat {
     width: 110px;
     height: 48.84px;
-    left: 305px;
-    bottom: 4px;
-    border-radius: 15px 15px 0 0;
+    left: 257px;
+    bottom: 32px;
   }
 
   .chat img {
@@ -760,7 +765,7 @@ img {
   .absolute-img-bottom {
     width: 67.58px;
     height: 60.51px;
-    bottom: 4%;
+    bottom: -69%;
     right: 0%;
   }
 
@@ -785,7 +790,7 @@ img {
   }
 
   .absolute-img-cubes {
-    height: auto;
+    height: 200px;
   }
   .absolute-img-grouptravel-right {
     position: absolute;
@@ -833,10 +838,14 @@ img {
 
   .absolute-img-vector1 {
     position: absolute;
-    top: 10%;
-    right: 25%;
-    width: 281.78px;
-    height: 206px;
+    top: 0;
+    right: 2%;
+    width: 200px;
+    height: 170px;
+  }
+
+  .section-title {
+    font-size: 18px;
   }
 
   .icon-star {
@@ -845,6 +854,11 @@ img {
   }
 
   .close-modal {
-    left: 305px;
+    left: 250px;
+  }
+  .chat-text {
+    line-height: 16px;
+    padding: 6px;
+    width: 239px;
   }
 }

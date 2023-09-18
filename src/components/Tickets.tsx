@@ -155,6 +155,7 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
+                  <option defaultValue="0">0</option>
                   <option defaultValue="1">1</option>
                   <option defaultValue="2">2</option>
                   <option defaultValue="3">3</option>
@@ -172,6 +173,7 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
+                  <option defaultValue="0">0</option>
                   <option defaultValue="1">1</option>
                   <option defaultValue="2">2</option>
                   <option defaultValue="3">3</option>
@@ -189,6 +191,7 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
+                  <option defaultValue="0">0</option>
                   <option defaultValue="1">1</option>
                   <option defaultValue="2">2</option>
                   <option defaultValue="3">3</option>

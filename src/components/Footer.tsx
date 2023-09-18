@@ -369,8 +369,8 @@ const Footer: React.FC = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
-        <Image src="/livechat.png" alt="livechat" width={50} height={50} />
-        <p className="ms-2 mb-0 f-20-heading-semi-bold">Live chat</p>
+        <Image src="/livechat.png" alt="livechat" width={25} height={25} />
+        <p className="ms-2 mb-0 f-20-heading-semi-bold ">Live chat</p>
       </div>
 
       <div

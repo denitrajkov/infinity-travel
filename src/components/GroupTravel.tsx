@@ -10,7 +10,7 @@ export default function GroupTravel() {
   return (
     <>
       <div className="container pt-5">
-        <div className="row py-5 d-flex flex-row mb-5">
+        <div className="row  d-flex flex-row mb-5">
           <div className="col">
             <div className="d-flex flex-row position-relative">
               <Image
@@ -83,22 +83,8 @@ export default function GroupTravel() {
                 }}
               >
                 <div>
-                  <p
-                    style={{
-                      fontSize: "26px",
-                      lineHeight: "35.41px",
-                      fontWeight: "700",
-                    }}
-                  >
-                    Групни патувања
-                  </p>
-                  <p
-                    style={{
-                      fontSize: "16px",
-                      lineHeight: "21.79px",
-                      fontWeight: "400",
-                    }}
-                  >
+                  <p className="f-26-heading-bold">Групни патувања</p>
+                  <p className="f-16-body-text-regular">
                     Lorem ipsum, dolor sit amet consectetur adipisicing.
                   </p>
                   <button className="btn-yellow f-18-body-text-regular w-100">
@@ -128,6 +114,13 @@ export default function GroupTravel() {
             <Image
               src="/lepenka.png"
               className="mb-3  absolute-img-top"
+              alt="sticker"
+              width={200}
+              height={200}
+            />
+            <Image
+              src="/lepenka.png"
+              className="  absolute-img-bottom "
               alt="sticker"
               width={200}
               height={200}
