@@ -1,6 +1,7 @@
 import { Arrangements, CardType } from "@/interface/type";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 interface Props {
   data: Arrangements;
@@ -22,17 +23,25 @@ const Card: React.FC<Props> = ({ data, linkTo }) => {
             {Array(data.rating)
               .fill(null)
               .map((_, index) => (
-                <img
+                <Image
                   key={index}
                   src="/star.png"
                   className="icon-star"
                   alt={`star-${data.name}-${index}`}
+                  width={20}
+                  height={20}
                 />
               ))}
           </div>
         </div>
         <p className="m-0 f-13-body-text-regular">
-          <img className="card-location" src="/location.png" alt="location" />
+          <Image
+            className="card-location"
+            src="/location.png"
+            alt="location"
+            width={20}
+            height={20}
+          />
           {data.location.city}
         </p>
         <div className="d-flex justify-content-between">

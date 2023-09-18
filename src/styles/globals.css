@@ -785,7 +785,7 @@ img {
   }
 
   .absolute-img-cubes {
-    height: 300px;
+    height: auto;
   }
   .absolute-img-grouptravel-right {
     position: absolute;

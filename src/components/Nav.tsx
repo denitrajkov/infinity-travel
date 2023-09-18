@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useRef, useState } from "react";
+import Image from "next/image";
 
 const Nav: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,17 +41,19 @@ const Nav: React.FC = () => {
       <nav className="navbar navbar-expand-lg purple1">
         <div className="container-fluid">
           <Link className="navbar-brand" href={"/"}>
-            <img src="/logo.png" alt="logo" />
+            <Image src="/logo.png" alt="logo" width={50} height={50} />
           </Link>
           <div className="row">
             <div className="col-6 d-lg-none">
               <form onSubmit={handleSubmit} className="box me-3">
                 <input type="text" ref={inputValue} placeholder="Search..." />
                 <a href="#">
-                  <img
+                  <Image
                     src="/search-navbar.png"
                     className="search-navbar "
                     alt="search-navbar"
+                    width={100}
+                    height={100}
                   />
                 </a>
               </form>

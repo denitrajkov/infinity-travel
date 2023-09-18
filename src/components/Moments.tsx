@@ -1,5 +1,6 @@
 import { Momentss } from "@/interface/type";
 import React from "react";
+import Image from "next/image";
 
 interface Props {
   cardData: Momentss[];
@@ -22,12 +23,14 @@ export default function Moments({ cardData }: Props) {
         <div className="image-grid">
           {cardData.map((item, index) => (
             <div key={item.id}>
-              <img
+              <Image
                 src={`/${item.img}.jpg`}
                 alt=""
                 className="image"
                 data-bs-toggle="modal"
                 data-bs-target={`#exampleModal${index}`}
+                width={500}
+                height={200}
               />
 
               <div
@@ -38,21 +41,32 @@ export default function Moments({ cardData }: Props) {
               >
                 <div className="modal-dialog">
                   <div className="modal-content image-modal-content">
-                    <img
+                    <Image
                       src={`/${item.img}.jpg`}
                       alt="img"
                       className="background-image rounded"
+                      width={500}
+                      height={200}
                     />
                     <img
                       src="/bg-moments.png"
                       alt="bgmoments"
                       className="position-absolute img-moments"
                     />
+                    <Image
+                      src="/bg-moments.png"
+                      alt="bgmoments"
+                      className="position-absolute img-moments"
+                      width={500}
+                      height={200}
+                    />
                     <p className="text-overlay f-32-regular text-black">
-                      <img
+                      <Image
                         className="card-location-moments"
                         src="/location.png"
                         alt="location"
+                        width={500}
+                        height={200}
                       />
                       {item.destination}
                     </p>

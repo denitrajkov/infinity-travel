@@ -1,6 +1,7 @@
 import { Arrangements } from "@/interface/type";
 import React from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 interface Props {
   product: Arrangements;
@@ -50,10 +51,12 @@ const DetailArrangments: React.FC<Props> = ({ product }) => {
             )}
           </ul>
           <p className="m-0  f-26-heading">
-            <img
+            <Image
               className=" card-location1"
               src="/location.png"
               alt="location"
+              width={20}
+              height={100}
             />
             {product.location.city}, {product.location.country}
           </p>
@@ -71,7 +74,12 @@ const DetailArrangments: React.FC<Props> = ({ product }) => {
       <div className="row py-5" id="gallery">
         {product.gallery.map((item, index) => (
           <div className="col-6 col-lg-3  mb-3" key={index}>
-            <img src={`/${item.url}.png`} />
+            <Image
+              src={`/${item.url}.png`}
+              alt="prevousimg"
+              width={250}
+              height={200}
+            />
           </div>
         ))}
       </div>

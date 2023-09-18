@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   const nameRef = useRef<HTMLInputElement>(null);
@@ -95,15 +96,25 @@ const Footer: React.FC = () => {
             <div className="col-lg-8 offset-lg-2">
               <div className="row">
                 <div className="col d-flex flex-row align-items-center justify-content-center">
-                  <img className="mx-3" src="/mail.png" />
+                  <Image
+                    className="mx-3"
+                    src="/mail.png"
+                    alt="mail-img"
+                    width={50}
+                    height={50}
+                  />
                   <p className="m-0 ">
                     Пријави се и добивај актуелни <br /> понуди на твојот маил
                   </p>
-                  <img
+
+                  <Image
                     className="mx-3 wh-50-25"
                     src={isFormVisible ? "/vectorup.png" : "/vectordown.png"}
+                    alt="vector-img"
                     onClick={toggleForm}
                     style={{ cursor: "pointer" }}
+                    width={50}
+                    height={50}
                   />
                 </div>
               </div>
@@ -318,14 +329,24 @@ const Footer: React.FC = () => {
             <div className="row mt-2">
               <div className="col">
                 <a href="https://www.instagram.com/" target="blank">
-                  <img src="/instagram.png" alt="instagram" />
+                  <Image
+                    src="/instagram.png"
+                    alt="instagram"
+                    width={50}
+                    height={50}
+                  />
                 </a>
                 <a
                   href="https://www.facebook.com/"
                   target="blank"
                   className="ms-3"
                 >
-                  <img src="/facebook.png" alt="facebook" />
+                  <Image
+                    src="/facebook.png"
+                    alt="facebook"
+                    width={50}
+                    height={50}
+                  />
                 </a>
               </div>
             </div>
@@ -348,7 +369,7 @@ const Footer: React.FC = () => {
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
-        <img src="/livechat.png" alt="livechat" />
+        <Image src="/livechat.png" alt="livechat" width={50} height={50} />
         <p className="ms-2 mb-0 f-20-heading-semi-bold">Live chat</p>
       </div>
 
@@ -362,13 +383,15 @@ const Footer: React.FC = () => {
       >
         <div className="modal-dialog postion-absolute">
           <div className="modal-content modal-chat p-5">
-            <img
+            <Image
               src="/colse-modal.png"
               alt="close-modal"
               className="close-modal position-relative"
               data-bs-dismiss="modal"
               aria-label="Close"
               onClick={() => setShowThankYou(false)}
+              width={50}
+              height={50}
             />
             {showThankYou && (
               <>

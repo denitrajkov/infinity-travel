@@ -1,6 +1,7 @@
 import { Arrangements } from "@/interface/type";
 import React from "react";
 import Card from "./Card";
+import Image from "next/image";
 
 interface Props {
   chunkedCardData: Arrangements[][];
@@ -35,7 +36,7 @@ const Carousel: React.FC<Props> = ({ chunkedCardData, linkTo }) => {
         data-bs-slide="prev"
       >
         <span className="position-absolute-prevous color ">
-          <img src="/prevous.png" alt="prevousimg" />
+          <Image src="/prevous.png" alt="prevousimg" width={20} height={100} />
         </span>
       </button>
       <button
@@ -45,7 +46,7 @@ const Carousel: React.FC<Props> = ({ chunkedCardData, linkTo }) => {
         data-bs-slide="next"
       >
         <span className="position-absolute-next color ">
-          <img src="/next.png" alt="nextimg" />
+          <Image src="/next.png" alt="nextimg" width={20} height={100} />
         </span>
       </button>
     </div>

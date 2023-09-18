@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useRef, useState } from "react";
+import Image from "next/image";
 interface Props {
   bannerImg: string;
 }
@@ -63,7 +64,12 @@ const Banner: React.FC<Props> = ({ bannerImg }) => {
                 </div>
 
                 <button type="button" className="btn-search border-radius-img">
-                  <img src="/search.png" alt="searchImg" />
+                  <Image
+                    src="/search.png"
+                    alt="searchImg"
+                    width={45}
+                    height={45}
+                  />
                 </button>
               </div>
             </form>

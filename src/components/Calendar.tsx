@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import React, { useRef, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import Image from "next/image";
 
 interface Props {
   destinations: Country[];
@@ -85,13 +86,21 @@ const CalendarFilter: React.FC<Props> = ({ destinations }) => {
                 />
               </div>
               <button type="button" className="btn-search border-radius-img">
-                <img src="/search.png" alt="searchImg" />
+                <Image
+                  src="/search.png"
+                  alt="searchImg"
+                  width={30}
+                  height={30}
+                />
               </button>
-              <img
+
+              <Image
                 src="/openfilter.png"
                 alt="openfilter"
                 className="ms-2 d-lg-none"
                 onClick={toggleMobileFilter}
+                width={40}
+                height={40}
               />
             </div>
           </form>
@@ -121,12 +130,14 @@ const CalendarFilter: React.FC<Props> = ({ destinations }) => {
                 onClick={() => toggleAccordion("accordion1")}
               >
                 Дестинација
-                <img
+                <Image
                   src="/vectordown.png"
                   alt="vectordown"
                   className={`vectodown-filter ${
                     accordionOpen.accordion1 ? "open" : ""
                   }`}
+                  width={40}
+                  height={40}
                 />
               </button>
               {accordionOpen.accordion1 && (
@@ -153,12 +164,14 @@ const CalendarFilter: React.FC<Props> = ({ destinations }) => {
                 onClick={() => toggleAccordion("accordion2")}
               >
                 Цена
-                <img
+                <Image
                   src="/vectordown.png"
                   alt="vectordown"
                   className={`vectodown-filter ${
                     accordionOpen.accordion2 ? "open" : ""
                   }`}
+                  width={40}
+                  height={40}
                 />
               </button>
               {accordionOpen.accordion2 && (
@@ -178,12 +191,14 @@ const CalendarFilter: React.FC<Props> = ({ destinations }) => {
                 onClick={() => toggleAccordion("accordion3")}
               >
                 Тип на сместување
-                <img
+                <Image
                   src="/vectordown.png"
                   alt="vectordown"
                   className={`vectodown-filter ${
                     accordionOpen.accordion3 ? "open" : ""
                   }`}
+                  width={40}
+                  height={40}
                 />
               </button>
               {accordionOpen.accordion3 && (
