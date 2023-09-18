@@ -13,7 +13,6 @@ export default function GroupTravel() {
         <div className="row py-5 d-flex flex-row mb-5">
           <div className="col">
             <div className="d-flex flex-row position-relative">
-              <img src="/cubes.jpg" className="absolute-img-cubes" />
               <Image
                 src="/cubes.jpg"
                 className="absolute-img-cubes"
@@ -40,7 +39,7 @@ export default function GroupTravel() {
                 width={200}
                 height={200}
               />
-              <img src="/imgcard.jpg" className="absolute-img-rotation" />
+
               <Image
                 src="/imgcard.jpg"
                 className="absolute-img-rotation"
@@ -158,7 +157,6 @@ export default function GroupTravel() {
             <p className="f-16-body-text-regular m-0 p-3">
               Одберете ја вашата дестинација
             </p>
-            <img src="/lepenka.png" className="mb-3  absolute-img-bottom" />
           </div>
 
           <Image

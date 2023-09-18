@@ -11,10 +11,12 @@ interface Props {
 const Card: React.FC<Props> = ({ data, linkTo }) => {
   return (
     <div className="card shadow  rounded">
-      <img
+      <Image
         src={`/${data.image}.png`}
         className="card-img-top img-fluid"
         alt={data.name}
+        width={20}
+        height={20}
       />
       <div className="card-body">
         <div className="d-flex justify-content-between align-items-center">

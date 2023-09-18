@@ -48,11 +48,7 @@ export default function Moments({ cardData }: Props) {
                       width={500}
                       height={200}
                     />
-                    <img
-                      src="/bg-moments.png"
-                      alt="bgmoments"
-                      className="position-absolute img-moments"
-                    />
+
                     <Image
                       src="/bg-moments.png"
                       alt="bgmoments"

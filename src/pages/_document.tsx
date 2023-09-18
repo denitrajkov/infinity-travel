@@ -10,7 +10,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300;700&family=Space+Mono&family=Ubuntu+Mono&display=swap"
           rel="stylesheet"
         />
-        <title>Т.А Инфинти</title>
       </Head>
       <body>
         <Main />
