@@ -119,7 +119,7 @@ export default function Tickets() {
                   placeholder="Внесете место на дестинација"
                   required
                   ref={toRef}
-                  value=""
+                  defaultValue=""
                   onChange={handleTicketChange}
                 />
               </div>
@@ -155,13 +155,12 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
-                  <option selected>0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
+                  <option defaultValue="1">1</option>
+                  <option defaultValue="2">2</option>
+                  <option defaultValue="3">3</option>
+                  <option defaultValue="4">4</option>
+                  <option defaultValue="5">5</option>
+                  <option defaultValue="6">6</option>
                 </select>
               </div>
               <div className="col-lg-3 col-6">
@@ -173,13 +172,12 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
-                  <option selected>0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
+                  <option defaultValue="1">1</option>
+                  <option defaultValue="2">2</option>
+                  <option defaultValue="3">3</option>
+                  <option defaultValue="4">4</option>
+                  <option defaultValue="5">5</option>
+                  <option defaultValue="6">6</option>
                 </select>
               </div>
               <div className="col-lg-3 col-6">
@@ -191,10 +189,9 @@ export default function Tickets() {
                   defaultValue="0"
                   onChange={handleTicketChange}
                 >
-                  <option selected>0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                  <option defaultValue="1">1</option>
+                  <option defaultValue="2">2</option>
+                  <option defaultValue="3">3</option>
                 </select>
               </div>
               <div className="col-lg-3 col-6">
@@ -206,9 +203,8 @@ export default function Tickets() {
                   defaultValue="Класа"
                   onChange={handleTicketChange}
                 >
-                  <option selected>Внесете класа</option>
-                  <option value="Економска">Економска</option>
-                  <option value="Класа">Класа</option>
+                  <option defaultValue="Економска">Економска</option>
+                  <option defaultValue="Класа">Класа</option>
                 </select>
               </div>
             </div>
