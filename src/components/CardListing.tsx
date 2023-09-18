@@ -71,8 +71,8 @@ const CardListing: React.FC<Props> = ({ cardData, arrow, linkTo }) => {
         <div className="col text-center">
           <Slider {...sliderSettings}>
             {uniqueRegions.map((region) => (
-              <div className="container-fluid">
-                <div className="row" key={region}>
+              <div className="container-fluid" key={region}>
+                <div className="row">
                   <div className="col text-center">
                     <Button
                       region={region}
