@@ -20,6 +20,7 @@ export default function Document() {
           integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
+          async
         ></script>
       </body>
     </Html>
