@@ -28,10 +28,7 @@ export default function GroupTravel() {
                 width={200}
                 height={200}
               />
-              <img
-                src="/grouptravel2.png"
-                className="absolute-img-grouptravel-right"
-              />
+
               <Image
                 src="/grouptravel2.png"
                 className="absolute-img-grouptravel-right"
