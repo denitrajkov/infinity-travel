@@ -46,15 +46,15 @@ export default function Moments({ cardData }: Props) {
                       alt="img"
                       className="background-image rounded"
                       width={500}
-                      height={200}
+                      height={100}
                     />
 
                     <Image
                       src="/bg-moments.png"
                       alt="bgmoments"
                       className="position-absolute img-moments"
-                      width={500}
-                      height={200}
+                      width={200}
+                      height={100}
                     />
                     <p className="text-overlay f-32-regular text-black">
                       <Image
@@ -62,7 +62,7 @@ export default function Moments({ cardData }: Props) {
                         src="/location.png"
                         alt="location"
                         width={500}
-                        height={200}
+                        height={50}
                       />
                       {item.destination}
                     </p>

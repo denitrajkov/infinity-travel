@@ -17,8 +17,8 @@ export default function GroupTravel() {
                 src="/cubes.jpg"
                 className="absolute-img-cubes"
                 alt="cubes"
-                width={50}
-                height={50}
+                width={1000}
+                height={400}
               />
 
               <Image

@@ -15,8 +15,8 @@ const Card: React.FC<Props> = ({ data, linkTo }) => {
         src={`/${data.image}.png`}
         className="card-img-top img-fluid"
         alt={data.name}
-        width={20}
-        height={20}
+        width={150}
+        height={200}
       />
       <div className="card-body">
         <div className="d-flex justify-content-between align-items-center">
