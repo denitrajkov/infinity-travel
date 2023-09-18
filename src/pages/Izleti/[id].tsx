@@ -52,11 +52,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const id = params?.id;
 
-  const res = await fetch(`http://localhost:3001/arrangements/${id}`);
+  const res = await fetch(
+    `https://infinity-travel.glitch.me/arrangements/${id}`
+  );
   const product: Arrangements = await res.json();
 
   const resArrangments = await fetch(
-    `http://localhost:3001/arrangements?}&izleti_like=true`
+    `https://infinity-travel.glitch.me/arrangements?&izleti_like=true`
   );
   const arrangments: Arrangements = await resArrangments.json();
 
