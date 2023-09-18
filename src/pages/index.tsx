@@ -1,6 +1,5 @@
 import Banner from "@/components/Banner";
 import CardListing from "@/components/CardListing";
-
 import GroupTravel from "@/components/GroupTravel";
 import Moments from "@/components/Moments";
 import Testimonials from "@/components/Testimonials";
