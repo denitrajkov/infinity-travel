@@ -77,7 +77,7 @@ export default function Tickets() {
                 className="form-check-input"
                 type="radio"
                 name="inlineRadioOptions"
-                value="повратен билет"
+                defaultValue="повратен билет"
                 checked={selectedTicket === "повратен билет"}
                 onChange={handleTicketChange}
               />
@@ -91,7 +91,7 @@ export default function Tickets() {
                 type="radio"
                 name="inlineRadioOptions"
                 checked={selectedTicket === "еден правец"}
-                value="еден правец"
+                defaultValue="еден правец"
                 onChange={handleTicketChange}
               />
               <label className="form-check-label f-20-heading-semi-bold">
@@ -107,7 +107,7 @@ export default function Tickets() {
                   placeholder="Внесете место на поаѓање"
                   required
                   ref={fromRef}
-                  value=""
+                  defaultValue=""
                   onChange={handleTicketChange}
                 />
               </div>
@@ -152,7 +152,7 @@ export default function Tickets() {
                   className="form-select"
                   aria-label="Default select example"
                   ref={adultsRef}
-                  value="0"
+                  defaultValue="0"
                   onChange={handleTicketChange}
                 >
                   <option selected>0</option>
@@ -170,7 +170,7 @@ export default function Tickets() {
                   className="form-select"
                   aria-label="Default select example"
                   ref={childrenRef}
-                  value="0"
+                  defaultValue="0"
                   onChange={handleTicketChange}
                 >
                   <option selected>0</option>
@@ -188,7 +188,7 @@ export default function Tickets() {
                   className="form-select"
                   aria-label="Default select example"
                   ref={babyRef}
-                  value="0"
+                  defaultValue="0"
                   onChange={handleTicketChange}
                 >
                   <option selected>0</option>
@@ -203,7 +203,7 @@ export default function Tickets() {
                   className="form-select"
                   aria-label="Default select example"
                   ref={classRef}
-                  value="Класа"
+                  defaultValue="Класа"
                   onChange={handleTicketChange}
                 >
                   <option selected>Внесете класа</option>

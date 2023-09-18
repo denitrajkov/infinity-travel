@@ -52,7 +52,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   }
 
   if (location) {
-    linkIzleti = `https://infinity-travel.glitch.me/arrangements?}&izleti_like=true`;
+    linkIzleti = `https://infinity-travel.glitch.me/arrangements?&izleti_like=true`;
   } else {
     linkIzleti = "https://infinity-travel.glitch.me/arrangements";
   }
