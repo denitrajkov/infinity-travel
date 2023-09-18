@@ -69,8 +69,8 @@ const DetailArrangments: React.FC<Props> = ({ product }) => {
       </div>
 
       <div className="row py-5" id="gallery">
-        {product.gallery.map((item) => (
-          <div className="col-6 col-lg-3  mb-3" key={item.thumbnail}>
+        {product.gallery.map((item, index) => (
+          <div className="col-6 col-lg-3  mb-3" key={index}>
             <img src={`/${item.url}.png`} />
           </div>
         ))}
