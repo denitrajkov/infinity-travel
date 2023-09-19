@@ -124,7 +124,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -136,7 +139,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -148,7 +154,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -160,7 +169,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -172,7 +184,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -184,7 +199,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -196,7 +214,10 @@ const Nav: React.FC = () => {
                   </li>
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item "
                       href={{
                         pathname: "/egzoticnipatuvanja",

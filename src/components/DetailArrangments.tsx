@@ -12,9 +12,9 @@ const DetailArrangments: React.FC<Props> = ({ product }) => {
 
   return (
     <div className="container">
-      <div className="row d-none d-lg-block">
+      <div className="row ">
         <div className="col d-flex justify-content-between">
-          <ul className="list-group list-group-flush d-flex flex-row ">
+          <ul className="list-group list-group-flush d-lg-flex flex-row d-none ">
             <li className="list-group-item border-0 p-0 me-2">
               <a
                 href="#description"
@@ -52,7 +52,7 @@ const DetailArrangments: React.FC<Props> = ({ product }) => {
           </ul>
           <p className="m-0  f-26-heading">
             <Image
-              className=" card-location1"
+              className="card-location1"
               src="/location.png"
               alt="location"
               width={20}
