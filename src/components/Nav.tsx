@@ -41,7 +41,7 @@ const Nav: React.FC = () => {
       <nav className="navbar navbar-expand-lg purple1">
         <div className="container-fluid">
           <Link className="navbar-brand" href={"/"}>
-            <Image src="/logo.png" alt="logo" width={50} height={50} />
+            <Image src="/logo.png" alt="logo" width={120} height={55} />
           </Link>
           <div className="row">
             <div className="col-6 d-lg-none">

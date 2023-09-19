@@ -10,10 +10,10 @@ interface Props {
 
 const Card: React.FC<Props> = ({ data, linkTo }) => {
   return (
-    <div className="card shadow  rounded">
+    <div className="card shadow rounded mb-3">
       <Image
         src={`/${data.image}.png`}
-        className="card-img-top img-fluid"
+        className="card-img-top"
         alt={data.name}
         width={150}
         height={200}
