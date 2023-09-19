@@ -84,6 +84,7 @@ const Nav: React.FC = () => {
                   href={"/"}
                   className="nav-link  underline-hover-effect"
                   aria-current="page"
+                  onClick={handleMenuToggle}
                 >
                   Дома
                 </Link>
@@ -108,7 +109,10 @@ const Nav: React.FC = () => {
                 >
                   <li>
                     <Link
-                      onClick={handleDropdownToggle}
+                      onClick={() => {
+                        handleDropdownToggle();
+                        handleMenuToggle();
+                      }}
                       className="dropdown-item"
                       href={{
                         pathname: "/destinacii",
@@ -213,6 +217,7 @@ const Nav: React.FC = () => {
                   href={"/grupnipatuvanja"}
                   className="nav-link underline-hover-effect"
                   aria-current="page"
+                  onClick={handleMenuToggle}
                 >
                   Групни патувања
                 </Link>
@@ -226,6 +231,7 @@ const Nav: React.FC = () => {
                   href={"/aviokarti"}
                   className="nav-link underline-hover-effect"
                   aria-current="page"
+                  onClick={handleMenuToggle}
                 >
                   Авио Карти
                 </Link>
@@ -242,6 +248,7 @@ const Nav: React.FC = () => {
                     query: { country_like: "Македонија" },
                   }}
                   aria-current="page"
+                  onClick={handleMenuToggle}
                 >
                   Истражи ја Македонија
                 </Link>
@@ -257,6 +264,7 @@ const Nav: React.FC = () => {
                   }}
                   className="nav-link underline-hover-effect"
                   aria-current="page"
+                  onClick={handleMenuToggle}
                 >
                   За нас
                 </Link>
