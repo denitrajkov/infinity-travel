@@ -755,7 +755,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
   }
   .btn-green {
-    font-size: 12px;
+    font-size: 10px;
   }
   .p-100 {
     padding: 0;
@@ -873,5 +873,9 @@ img {
     line-height: 16px;
     padding: 6px;
     width: 239px;
+  }
+
+  .slick-arrow {
+    display: none;
   }
 }
