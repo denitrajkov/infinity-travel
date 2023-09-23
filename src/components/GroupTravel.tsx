@@ -3,10 +3,6 @@ import React from "react";
 import Image from "next/image";
 
 export default function GroupTravel() {
-  const noMargin = {
-    margin: "0",
-  };
-
   return (
     <>
       <div className="container pt-5">

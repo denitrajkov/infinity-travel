@@ -170,7 +170,7 @@ const Footer: React.FC = () => {
             <ul className="list-group list-group-flush ">
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Грција" },
@@ -181,7 +181,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Турција" },
@@ -192,7 +192,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Црна Гора" },
@@ -203,7 +203,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Хрватска" },
@@ -214,7 +214,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Египет" },
@@ -225,7 +225,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/destinacii",
                     query: { country_like: "Италија" },
@@ -236,7 +236,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   href={{
                     pathname: "/egzoticnipatuvanja",
                     query: { exoticDestination_like: true },
@@ -253,7 +253,7 @@ const Footer: React.FC = () => {
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/aviokarti"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   aria-current="page"
                 >
                   Авио Карти
@@ -262,7 +262,7 @@ const Footer: React.FC = () => {
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/grupnipatuvanja"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   aria-current="page"
                 >
                   MICE Туризам
@@ -271,7 +271,7 @@ const Footer: React.FC = () => {
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/grupnipatuvanja"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   aria-current="page"
                 >
                   Team Building
@@ -280,14 +280,17 @@ const Footer: React.FC = () => {
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/grupnipatuvanja"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                   aria-current="page"
                 >
                   Tailor made
                 </Link>
               </li>
               <li className="list-group-item border-0 p-0">
-                <a href="#" className="text-decoration-none text-dark">
+                <a
+                  href="#"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
+                >
                   Gift card
                 </a>
               </li>
@@ -297,14 +300,17 @@ const Footer: React.FC = () => {
             <h4 className="section-title  mb-4">Останато</h4>
             <ul className="list-group list-group-flush ">
               <li className="list-group-item border-0 p-0">
-                <a href="#" className="text-decoration-none text-dark">
+                <a
+                  href="#"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
+                >
                   За нас
                 </a>
               </li>
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/opsti-uslovi"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                 >
                   Општи услови за патување
                 </Link>
@@ -312,7 +318,7 @@ const Footer: React.FC = () => {
               <li className="list-group-item border-0 p-0">
                 <Link
                   href={"/patnicko-osiguruvanje"}
-                  className="text-decoration-none text-dark"
+                  className="text-decoration-none text-dark f-18-body-text-regular"
                 >
                   Патничко осигурување
                 </Link>
@@ -321,11 +327,15 @@ const Footer: React.FC = () => {
           </div>
           <div className="col-lg-3 col-12">
             <h4 className="section-title  mb-4">Контакт </h4>
-            <p className="m-0">
+            <p className="m-0 f-18-body-text-regular">
               Адреса: Бул. Даме Груев бр.14 лок.24 1000 Скопје, Македонија
             </p>
-            <p className="m-0">Е-маил: contact@intfinitytravel.mk</p>
-            <p className="m-0">Телефон: 023100360/ 072254160</p>
+            <p className="m-0 f-18-body-text-regular">
+              Е-маил: contact@intfinitytravel.mk
+            </p>
+            <p className="m-0 f-18-body-text-regular">
+              Телефон: 023100360/ 072254160
+            </p>
             <div className="row mt-2">
               <div className="col">
                 <a href="https://www.instagram.com/" target="blank">
