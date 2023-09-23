@@ -164,7 +164,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="container py-5">
-        <div className="row g-5">
+        <div className="row">
           <div className="col-lg-3 col-4">
             <h4 className="section-title  mb-4">Дестинации</h4>
             <ul className="list-group list-group-flush ">

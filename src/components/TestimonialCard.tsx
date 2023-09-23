@@ -24,13 +24,13 @@ const TestimonialCard: React.FC<Props> = ({ data }) => {
             className="additional-image"
             alt="img"
             width={100}
-            height={50}
+            height={30}
           />
           <div className="card-body">
             <p className="card-title f-24-heading-semi-bold m-0">
               {data.title}
             </p>
-            <div className="mb-4">
+            <div>
               {Array(data.rating)
                 .fill(null)
                 .map((_, index) => (
@@ -44,7 +44,7 @@ const TestimonialCard: React.FC<Props> = ({ data }) => {
                   />
                 ))}
             </div>
-            <p className="card-text f-18-body-text-regular p-100">
+            <p className="card-text f-18-body-text-regular p-100 m-0">
               {data.description}
             </p>
             <p className="f-20-heading-semi-bold m-0">{data.arrangement}</p>

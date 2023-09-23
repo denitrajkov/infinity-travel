@@ -227,7 +227,7 @@ img {
 
 .additional-image {
   position: absolute;
-  top: -25px;
+  top: -11px;
   left: 50%;
   transform: translateX(-50%);
   width: 50%;
@@ -776,9 +776,9 @@ img {
     left: 0%;
   }
   .absolute-img-bottom {
-    width: 67.58px;
+    width: 49.58px;
     height: 60.51px;
-    bottom: -69%;
+    bottom: -78%;
     right: 0%;
   }
 
