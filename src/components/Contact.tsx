@@ -36,6 +36,7 @@ export default function Contact() {
     } catch (error) {
       console.error("Error sending request:", error);
     }
+    alert("Успешно го оставивте Вашиот контакт");
   };
   return (
     <>

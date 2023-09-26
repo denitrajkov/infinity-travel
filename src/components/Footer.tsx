@@ -38,6 +38,7 @@ const Footer: React.FC = () => {
     } catch (error) {
       console.error("Error sending request:", error);
     }
+    alert("Успешно се пријавивте за да ги добивате актуелните понуди");
   };
 
   const handleChatSubmit = async (e: React.FormEvent<HTMLFormElement>) => {

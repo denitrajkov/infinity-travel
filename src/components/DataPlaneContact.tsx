@@ -40,6 +40,7 @@ export default function Contact() {
     } catch (error) {
       console.error("Error sending request:", error);
     }
+    alert("Успешно испративте понуда за резервација на билет");
   };
   return (
     <div className="container p-5">
