@@ -20,7 +20,7 @@ const Carousel: React.FC<Props> = ({ chunkedCardData, linkTo }) => {
             <div className="container">
               <div className="row ">
                 {chunk.map((card) => (
-                  <div className="col-6 col-lg-3 mb-3" key={card.id}>
+                  <div className="col-12 col-md-6 col-lg-3 mb-3" key={card.id}>
                     <Card data={card} linkTo={linkTo} />
                   </div>
                 ))}
