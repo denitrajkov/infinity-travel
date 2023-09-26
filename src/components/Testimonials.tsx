@@ -20,7 +20,7 @@ const Testimonials: React.FC<Props> = ({ dataTestimonialsCard }) => {
       </div>
 
       <div className="bg-image d-flex justify-content-center align-items-center container">
-        <div className="container container-lg">
+        <div className="container container-lg p-4">
           <div className="row d-flex justify-content-center align-items-center">
             {dataTestimonialsCard.map((item) => (
               <TestimonialCard data={item} key={item.image} />

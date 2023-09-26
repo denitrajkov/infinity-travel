@@ -265,7 +265,7 @@ img {
 .bg-image {
   background-image: url("/cubes.jpg");
   background-repeat: "no-repeat";
-  height: 600px;
+  height: 100%;
 }
 
 .w-20 {
@@ -787,7 +787,7 @@ img {
   }
 
   .bg-image {
-    height: 938px;
+    height: 100%;
     background-repeat: repeat;
   }
   .absolute-img-grouptravel-left {

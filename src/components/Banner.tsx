@@ -40,7 +40,7 @@ const Banner: React.FC<Props> = ({ bannerImg }) => {
     >
       <div className="container">
         <div className="row padding-70">
-          <div className="col-md-4 p-5 yellow-bg-img">
+          <div className="col-md-4 p-lg-5 p-3 yellow-bg-img">
             <p className="f-26-heading-bold">
               Lorem ipsum dolor sit amet consectetur adipisicing.
             </p>
