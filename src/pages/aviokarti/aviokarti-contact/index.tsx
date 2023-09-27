@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner";
 import DataPlaneContact from "@/components/DataPlaneContact";
 import Title from "@/components/Title";
 import { NextPage } from "next";
@@ -10,6 +11,7 @@ const aviokarti: NextPage = () => {
         <title>Т.А Инфинти - Авио Карти</title>
         <meta name="description" />
       </Head>
+      <Banner bannerImg="global-banner" />
       <Title title="Авио Карти" />
       <DataPlaneContact />
     </>

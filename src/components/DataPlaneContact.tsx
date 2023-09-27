@@ -94,13 +94,12 @@ export default function Contact() {
             <div className="mb-3">
               <div className="row">
                 <div className="col-6 ">
-                  <Link
+                  <button
                     type="submit"
                     className="btn-send f-20-heading-semi-bold"
-                    href={"/"}
                   >
                     ПОБАРАЈ ПОНУДА
-                  </Link>
+                  </button>
                 </div>
               </div>
             </div>

@@ -52,8 +52,8 @@ const Nav: React.FC = () => {
                     src="/search-navbar.png"
                     className="search-navbar "
                     alt="search-navbar"
-                    width={105}
-                    height={105}
+                    width={35}
+                    height={35}
                   />
                 </a>
               </form>
