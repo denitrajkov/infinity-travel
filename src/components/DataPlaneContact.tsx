@@ -45,7 +45,7 @@ export default function Contact() {
   return (
     <div className="container p-5">
       <div className="row d-flex align-items-center ">
-        <div className="col-lg-6 offset-lg-3 col-12 bg-gray p-5">
+        <div className="col-lg-6 offset-lg-3 col-12 bg-gray p-lg-5">
           <form onSubmit={handleSubmit}>
             <div className="mb-3 ">
               <div className="row">
